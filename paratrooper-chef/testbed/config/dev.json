@@ -1,0 +1,15 @@
+{
+  "jenkins" : {
+    "http_proxy" : {
+      "variant" : "nginx"
+    }
+  },
+  "nginx" : {
+    "default_site_enabled" : false
+  },
+  "run_list" : [
+    "recipe[java]",
+    "recipe[jenkins]",
+    "recipe[nginx]"
+  ]
+}

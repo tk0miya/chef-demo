@@ -1,0 +1,19 @@
+{
+  "name" : "timedia",
+  "json_class" : "Chef::Role",
+  "run_list" : [
+    "recipe[jenkins::server]",
+    "recipe[jenkins::proxy_nginx]",
+    "recipe[nginx]"
+  ],
+  "default_attributes" : {
+    "jenkins" : {
+      "http_proxy" : {
+        "variant" : "nginx"
+      }
+    },
+    "nginx" : {
+      "default_site_enabled" : false
+    }
+  }
+}

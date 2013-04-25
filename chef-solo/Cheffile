@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'jenkins',
+  :git => 'https://github.com/tk0miya/chef-jenkins',
+  :ref => 'COOK-2754'
+cookbook 'runit',
+  :git => 'https://github.com/tk0miya/chef-runit',
+  :ref => 'COOK-2760'

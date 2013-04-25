@@ -1,0 +1,39 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.6.2)
+    apt (1.9.2)
+    build-essential (1.3.4)
+    chef_handler (1.1.4)
+    iptables (0.12.0)
+    java (1.10.0)
+      windows (>= 0.0.0)
+    nginx (1.4.0)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      ohai (>= 1.1.4)
+      yum (>= 0.0.0)
+    ohai (1.1.8)
+    runit (1.1.2)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    windows (1.8.8)
+      chef_handler (>= 0.0.0)
+    yum (2.2.0)
+
+GIT
+  remote: file:///Users/tkomiya/work/chef-jenkins
+  ref: allow_using_nginx_package
+  sha: 58da71a20b6ba0e1f253061b6718dc19d2e03f26
+  specs:
+    jenkins (0.8.0)
+      apache2 (>= 0.0.0)
+      iptables (>= 0.0.0)
+      java (>= 0.0.0)
+      nginx (>= 0.0.0)
+      runit (>= 1.0.0)
+
+DEPENDENCIES
+  jenkins (>= 0)
+  nginx (>= 0)
+

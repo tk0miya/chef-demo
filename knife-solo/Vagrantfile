@@ -1,0 +1,10 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant::Config.run do |config|
+  config.vm.box = "CentOS-5.7-x86_64"
+  config.vm.customize ["modifyvm", :id,
+                       "--memory", 512] 
+
+  config.vm.forward_port 80, 8080      # HTTP
+end
