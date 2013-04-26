@@ -4,7 +4,8 @@ require 'capistrano/ext/multistage'
 
 set :application, "test-app"
 set :repository, "none"
-set :deploy_to,   "/home/app/deploy"
+set(:deploy_to) { File.join(fetch(:home_directory), 'deploy') }
+set(:home_directory) { capture("echo $HOME").strip }
 
 # rbenv setting
 #require 'capistrano-rbenv'
@@ -21,4 +22,4 @@ after 'deploy:setup', 'install_omnibus_chef'
 require 'capistrano-paratrooper-chef'
 #require 'capistrano-paratrooper-chef/install'
 set :chef_solo_path, '/opt/chef/bin/chef-solo'
-#set :chef_roles_auto_discovery, true
+set :chef_roles_auto_discovery, true

@@ -4,6 +4,9 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'jenkins',
-  :git => 'file:///Users/tkomiya/work/chef-jenkins',
-  :ref => 'allow_using_nginx_package'
+  :git => 'git@github.com:tk0miya/chef-jenkins.git',
+  :ref => 'COOK-2754'
+cookbook 'runit',
+  :git => 'git@github.com:tk0miya/chef-runit.git',
+  :ref => 'COOK-2760'
 cookbook 'nginx'
