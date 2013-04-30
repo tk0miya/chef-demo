@@ -2,13 +2,13 @@ GEM
   remote: https://rubygems.org/
   specs:
     archive-tar-minitar (0.5.2)
-    capistrano (2.15.3)
+    capistrano (2.15.4)
       highline
       net-scp (>= 1.0.0)
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
-    capistrano-paratrooper-chef (0.0.3)
+    capistrano-paratrooper-chef (0.1.0)
       capistrano
     capistrano-platform-recognizer (0.1.0)
     capistrano-platform-resources (0.1.3)
