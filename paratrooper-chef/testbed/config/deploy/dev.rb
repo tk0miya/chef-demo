@@ -2,8 +2,8 @@
 ssh_options[:port] = "2222"
 ssh_options[:forward_agent] = true
 default_run_options[:pty] = true
-set :user     , "app"
-set :password , "app"
+set :user     , "vagrant"
+set :password , "vagrant"
 set :use_sudo , false
 
 # role settings
