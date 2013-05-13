@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/matschaffer/knife-solo
-  revision: 2e4adde48f076e2ab2da0818213b4ba3a41bd21c
+  revision: 9be2dbe01be3606bf2eff6c49572e46a8496f192
   specs:
     knife-solo (0.3.0.pre4)
       chef (>= 10.12)
@@ -11,7 +11,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     archive-tar-minitar (0.5.2)
-    chef (11.4.0)
+    chef (11.4.4)
       erubis
       highline (>= 1.6.9)
       json (>= 1.4.4, <= 1.7.7)
@@ -36,7 +36,7 @@ GEM
       archive-tar-minitar (>= 0.5.2)
       chef (>= 0.10)
       librarian (~> 0.1.0)
-    mime-types (1.22)
+    mime-types (1.23)
     mixlib-authentication (1.3.0)
       mixlib-log
     mixlib-cli (1.3.0)
