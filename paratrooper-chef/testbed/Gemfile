@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
 group :deploy do
+  gem 'aws-sdk'
   gem 'capistrano'
   gem 'capistrano_colors'
   gem 'capistrano-rbenv', '>= 0.0.11'
+  gem 'capistrano-pit-aws'
   gem 'capistrano-rbenv-ruby193deps-centos5'
   gem 'capistrano-paratrooper-chef'
   gem 'rvm-capistrano'
