@@ -4,9 +4,8 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'jenkins',
-  :git => 'git@github.com:tk0miya/chef-jenkins.git',
-  :ref => 'COOK-2754'
+  :git => 'https://github.com/opscode-cookbooks/jenkins.git'
 cookbook 'runit',
-  :git => 'git@github.com:tk0miya/chef-runit.git',
-  :ref => 'COOK-2760'
+  :git => 'https://github.com/gansbrest/runit.git',
+  :ref => 'rpm_rehl_root_dir_fix'
 cookbook 'nginx'
