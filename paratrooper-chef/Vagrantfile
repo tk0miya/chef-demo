@@ -4,8 +4,8 @@
 Vagrant::Config.run do |config|
   #config.vm.boot_mode = :gui
 
-  config.vm.box = "CentOS-5.7-x86_64"
-#  config.vm.box = "CentOS-6.3-x86_64-minimal"
+#  config.vm.box = "CentOS-5.7-x86_64"
+  config.vm.box = "CentOS-6.3-x86_64-minimal"
   config.vm.customize ["modifyvm", :id,
                        "--memory", 512] 
   config.vm.forward_port 80, 8080      # HTTP

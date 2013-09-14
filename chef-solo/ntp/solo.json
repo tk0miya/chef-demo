@@ -1,0 +1,8 @@
+{
+  "run_list" : [
+    "recipe[ntp]"
+  ],
+  "ntp" : {
+    "servers" : ["ntp.nict.jp"]
+  }
+}

@@ -1,5 +1,6 @@
 .vagrant
-chef-solo/cookbooks
+chef-solo/jenkins/cookbooks
+chef-solo/ntp/cookbooks
 knife-solo/cookbooks
 paratrooper-chef/testbed/bin
 paratrooper-chef/testbed/config/cookbooks
