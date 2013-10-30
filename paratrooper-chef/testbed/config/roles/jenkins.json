@@ -3,8 +3,7 @@
   "json_class" : "Chef::Role",
   "run_list" : [
     "recipe[jenkins::server]",
-    "recipe[jenkins::proxy_nginx]",
-    "recipe[nginx]"
+    "recipe[jenkins::proxy]"
   ],
   "default_attributes" : {
     "jenkins" : {

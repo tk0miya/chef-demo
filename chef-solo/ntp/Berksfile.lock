@@ -1,0 +1,7 @@
+{
+  "sources": {
+    "ntp": {
+      "locked_version": "1.5.0"
+    }
+  }
+}

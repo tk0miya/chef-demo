@@ -1,8 +1,0 @@
-SITE
-  remote: http://community.opscode.com/api/v1
-  specs:
-    ntp (1.4.0)
-
-DEPENDENCIES
-  ntp (>= 0)
-

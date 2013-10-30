@@ -11,5 +11,5 @@ group :deploy do
   gem 'rvm-capistrano'
   gem 'rvm-capistrano-ruby193deps-centos'
   gem 'chef', '>= 11.0.0'
-  gem 'librarian-chef'
+  gem 'berkshelf'
 end
