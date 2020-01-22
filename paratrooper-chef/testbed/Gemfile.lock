@@ -79,7 +79,7 @@ GEM
     erubis (2.7.0)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
-    ffi (1.9.2)
+    ffi (1.12.1)
     gssapi (1.0.3)
       ffi (>= 1.0.1)
     gyoku (1.1.0)
@@ -131,7 +131,7 @@ GEM
       systemu
       yajl-ruby
     pit (0.0.7)
-    rack (1.5.2)
+    rack (2.1.1)
     rbzip2 (0.2.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
